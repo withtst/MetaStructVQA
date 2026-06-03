@@ -1,0 +1,26 @@
+[
+  {
+    "q_id": "000000",
+    "q_type": "1b",
+    "content": "Based on the contrast and tissue characteristics of the given medical image, is it CT or PET?",
+    "options": {
+      "A": "CT",
+      "B": "PET"
+    },
+    "answer": "A",
+    "img_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "entity": ""
+  },
+  {
+    "q_id": "000001",
+    "q_type": "1b",
+    "content": "Determine whether the given imaging data belongs to CT or PET modality.",
+    "options": {
+      "A": "CT",
+      "B": "PET"
+    },
+    "answer": "B",
+    "img_path": "imgs_data/PET/PTXH220103024_0000.nii.gz",
+    "entity": ""
+  }
+]

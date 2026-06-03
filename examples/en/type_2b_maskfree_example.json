@@ -1,0 +1,26 @@
+[
+  {
+    "q_id": "000001",
+    "q_type": "2b_maskfree",
+    "content": "Based on the provided CT image, is the following description about brain correct?\nBilateral lateral ventricles are symmetric\n(Select A if correct, B if incorrect)",
+    "options": [
+      "A",
+      "B"
+    ],
+    "answer": "A",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "entity": "brain"
+  },
+  {
+    "q_id": "000002",
+    "q_type": "2b_maskfree",
+    "content": "Observing the provided image and the right adrenal gland region, is the description 'Right adrenal gland thickening' true? Select A for true, B for false.",
+    "options": [
+      "A",
+      "B"
+    ],
+    "answer": "A",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "entity": "adrenal_gland_right"
+  }
+]

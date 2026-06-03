@@ -1,0 +1,202 @@
+[
+  {
+    "chinese": "根据给定的全身CT图像及{entity}的掩模，请从选项中选择所有关于{entity}的正确描述",
+    "english": "Based on the given whole-body CT images and the {entity} mask, please select all correct descriptions of {entity} from the options."
+  },
+  {
+    "chinese": "基于所提供的全身CT扫描和{entity}的掩模，请选出所有正确描述{entity}的选项",
+    "english": "Based on the provided whole-body CT scan and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "利用给定的全身CT影像以及{entity}的分割掩模，从选项中识别出所有关于{entity}的正确陈述",
+    "english": "Using the given whole-body CT images and the segmentation mask of {entity}, identify all correct statements regarding {entity} from the options."
+  },
+  {
+    "chinese": "根据全身CT图像和{entity}的掩模图像，请选择所有对{entity}的正确描述",
+    "english": "Based on the whole-body CT images and the mask image of {entity}, please select all correct descriptions of {entity}."
+  },
+  {
+    "chinese": "在给定全身CT扫描和{entity}掩模的情况下，请从ABCD选项中选择所有正确描述{entity}的项",
+    "english": "Given the whole-body CT scan and the mask of {entity}, please select all options that correctly describe {entity} from the choices A-D."
+  },
+  {
+    "chinese": "请基于全身CT图像及{entity}的掩模，从选项中选择所有关于{entity}的正确信息",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please select all correct information regarding {entity} from the options."
+  },
+  {
+    "chinese": "根据提供的全身CT影像和{entity}的器官掩模，选出所有正确描述{entity}的选项",
+    "english": "Based on the provided whole-body CT images and the organ mask of {entity}, select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "使用给定的全身CT扫描和{entity}的掩模，确定所有关于{entity}的正确描述",
+    "english": "Using the given whole-body CT scan and the mask of {entity}, determine all correct descriptions of {entity}."
+  },
+  {
+    "chinese": "基于全身CT图像以及{entity}的掩模，请从选项中指出所有正确描述{entity}的陈述",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please indicate all correct statements describing {entity} from the options."
+  },
+  {
+    "chinese": "根据全身CT扫描图像和{entity}的掩模，请选择所有正确描述{entity}的选项",
+    "english": "Based on the whole-body CT scan images and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "借助全身CT图像和{entity}的掩模，请从选项中选择所有正确描述{entity}的内容",
+    "english": "With the assistance of whole-body CT images and the mask of {entity}, please select all statements that correctly describe {entity} from the options."
+  },
+  {
+    "chinese": "根据所给的全身CT扫描和{entity}掩模，请选出所有关于{entity}的正确描述",
+    "english": "Based on the given whole-body CT scan and the mask of {entity}, please select all correct descriptions of {entity}."
+  },
+  {
+    "chinese": "基于全身CT影像及{entity}的掩模，请从选项中挑选所有正确描述{entity}的项",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please choose all items that correctly describe {entity} from the options."
+  },
+  {
+    "chinese": "利用全身CT图像和{entity}的掩模，请识别所有正确描述{entity}的选项",
+    "english": "Using whole-body CT images and the mask of {entity}, please identify all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "根据给定的全身CT扫描和{entity}的掩模，请确定所有正确描述{entity}的陈述",
+    "english": "Based on the given whole-body CT scan and the mask of {entity}, please determine all correct statements describing {entity}."
+  },
+  {
+    "chinese": "在全身CT图像和{entity}掩模的基础上，请从选项中选择所有正确描述{entity}的信息",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please select all correct information regarding {entity} from the options."
+  },
+  {
+    "chinese": "请根据全身CT扫描图像及{entity}的掩模，选出所有正确描述{entity}的选项",
+    "english": "Based on the whole-body CT scan images and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "基于所提供的全身CT影像和{entity}的掩模，请选择所有正确描述{entity}的内容",
+    "english": "Based on the provided whole-body CT images and the mask of {entity}, please select all statements that correctly describe {entity}."
+  },
+  {
+    "chinese": "利用全身CT扫描和{entity}的掩模，请从选项中指出所有正确描述{entity}的项",
+    "english": "Using the whole-body CT scan and the mask of {entity}, please indicate all items that correctly describe {entity} from the options."
+  },
+  {
+    "chinese": "根据全身CT图像以及{entity}的掩模，请识别所有关于{entity}的正确描述",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please identify all correct descriptions of {entity}."
+  },
+  {
+    "chinese": "在给定全身CT影像和{entity}掩模的情况下，请选出所有正确描述{entity}的选项",
+    "english": "Given the whole-body CT images and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "请使用全身CT图像及{entity}的掩模，从选项中选择所有正确描述{entity}的陈述",
+    "english": "Using the whole-body CT images and the mask of {entity}, please select all correct statements describing {entity} from the options."
+  },
+  {
+    "chinese": "基于全身CT扫描和{entity}的掩模，请确定所有正确描述{entity}的选项",
+    "english": "Based on the whole-body CT scan and the mask of {entity}, please determine all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "根据全身CT影像和{entity}的掩模，请挑选所有正确描述{entity}的信息",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please select all information that correctly describes {entity}."
+  },
+  {
+    "chinese": "利用所提供的全身CT图像和{entity}的掩模，请从选项中选出所有正确描述{entity}的内容",
+    "english": "Using the provided whole-body CT images and the mask of {entity}, please select all statements that correctly describe {entity} from the options."
+  },
+  {
+    "chinese": "在全身CT扫描及{entity}掩模的基础上，请选择所有正确描述{entity}的选项",
+    "english": "Based on the whole-body CT scan and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "请基于全身CT影像和{entity}的掩模，识别所有正确描述{entity}的陈述",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please identify all correct statements describing {entity}."
+  },
+  {
+    "chinese": "根据全身CT图像和{entity}的器官分割掩模，请选出所有正确描述{entity}的选项",
+    "english": "Based on the whole-body CT images and the organ segmentation mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "使用全身CT扫描图像及{entity}的掩模，请从选项中确定所有正确描述{entity}的信息",
+    "english": "Using whole-body CT scan images and the mask of {entity}, please determine all information that correctly describes {entity} from the options."
+  },
+  {
+    "chinese": "基于全身CT扫描和{entity}的掩模图像，请选择所有正确描述{entity}的项",
+    "english": "Based on the whole-body CT scan and the mask image of {entity}, please select all items that correctly describe {entity}."
+  },
+  {
+    "chinese": "根据给定的全身CT影像和{entity}的掩模，请指出所有正确描述{entity}的选项",
+    "english": "Based on the given whole-body CT images and the mask of {entity}, please indicate all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "在全身CT图像和{entity}掩模的辅助下，请从选项中选择所有正确描述{entity}的描述",
+    "english": "With the aid of whole-body CT images and the mask of {entity}, please select all statements that correctly describe {entity} from the options."
+  },
+  {
+    "chinese": "请利用全身CT扫描及{entity}的掩模，选出所有正确描述{entity}的选项",
+    "english": "Using the whole-body CT scan and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "基于全身CT图像和{entity}的掩模，请识别所有正确描述{entity}的陈述",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please identify all correct statements describing {entity}."
+  },
+  {
+    "chinese": "根据全身CT扫描影像和{entity}的掩模，请选择所有正确描述{entity}的信息",
+    "english": "Based on the whole-body CT scan images and the mask of {entity}, please select all information that correctly describes {entity}."
+  },
+  {
+    "chinese": "使用全身CT图像及{entity}的器官掩模，请从选项中确定所有正确描述{entity}的项",
+    "english": "Using whole-body CT images and the organ mask of {entity}, please determine all items that correctly describe {entity} from the options."
+  },
+  {
+    "chinese": "在给定全身CT扫描和{entity}掩模的情况下，请挑选所有正确描述{entity}的选项",
+    "english": "Given the whole-body CT scan and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "请根据全身CT影像和{entity}的掩模，指出所有正确描述{entity}的陈述",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please indicate all correct statements describing {entity}."
+  },
+  {
+    "chinese": "基于全身CT扫描图像和{entity}的掩模，请选出所有正确描述{entity}的内容",
+    "english": "Based on the whole-body CT scan images and the mask of {entity}, please select all statements that correctly describe {entity}."
+  },
+  {
+    "chinese": "利用全身CT图像以及{entity}的掩模，请从选项中选择所有正确描述{entity}的信息",
+    "english": "Using whole-body CT images and the mask of {entity}, please select all information that correctly describes {entity} from the options."
+  },
+  {
+    "chinese": "根据全身CT扫描和{entity}的掩模，请确定所有正确描述{entity}的选项",
+    "english": "Based on the whole-body CT scan and the mask of {entity}, please determine all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "在全身CT影像及{entity}掩模的基础上，请选择所有正确描述{entity}的陈述",
+    "english": "Based on the whole-body CT images and the mask of {entity}, please select all correct statements describing {entity}."
+  },
+  {
+    "chinese": "请使用全身CT扫描图像和{entity}的掩模，识别所有正确描述{entity}的选项",
+    "english": "Using whole-body CT scan images and the mask of {entity}, please identify all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "基于全身CT图像和{entity}的器官分割掩模，请选出所有正确描述{entity}的信息",
+    "english": "Based on the whole-body CT images and the organ segmentation mask of {entity}, please select all information that correctly describes {entity}."
+  },
+  {
+    "chinese": "根据所提供的全身CT扫描和{entity}的掩模，请从选项中挑选所有正确描述{entity}的项",
+    "english": "Based on the provided whole-body CT scan and the mask of {entity}, please choose all items that correctly describe {entity} from the options."
+  },
+  {
+    "chinese": "利用全身CT影像和{entity}的掩模，请确定所有正确描述{entity}的陈述",
+    "english": "Using whole-body CT images and the mask of {entity}, please determine all correct statements describing {entity}."
+  },
+  {
+    "chinese": "在全身CT图像及{entity}掩模的帮助下，请选择所有正确描述{entity}的选项",
+    "english": "With the help of whole-body CT images and the mask of {entity}, please select all options that correctly describe {entity}."
+  },
+  {
+    "chinese": "请基于全身CT扫描和{entity}的掩模，指出所有正确描述{entity}的信息",
+    "english": "Based on the whole-body CT scan and the mask of {entity}, please indicate all information that correctly describes {entity}."
+  },
+  {
+    "chinese": "根据全身CT扫描图像以及{entity}的掩模，请选出所有正确描述{entity}的内容",
+    "english": "Based on the whole-body CT scan images and the mask of {entity}, please select all statements that correctly describe {entity}."
+  },
+  {
+    "chinese": "使用全身CT影像和{entity}的掩模，请从选项中识别所有正确描述{entity}的陈述",
+    "english": "Using whole-body CT images and the mask of {entity}, please identify all correct statements describing {entity} from the options."
+  }
+]

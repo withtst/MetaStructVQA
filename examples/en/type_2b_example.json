@@ -1,0 +1,22 @@
+[
+  {
+    "q_type": "2b",
+    "content": "Based on the provided CT image and the mask for the brain, is the following description correct?\nBilateral lateral ventricles are symmetric\n(Select A if correct, B if incorrect)",
+    "options": ["A", "B"],
+    "answer": "A",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "segmentation_path": "imgs_data/CT_seg/PTXH220103024/brain.nii.gz",
+    "q_id": "000000",
+    "entity": "brain"
+  },
+  {
+    "q_type": "2b",
+    "content": "Observing the provided image and the brain region, is the description 'Bilateral lateral ventricles are asymmetric' true? Select A for true, B for false.",
+    "options": ["A", "B"],
+    "answer": "B",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "segmentation_path": "imgs_data/CT_seg/PTXH220103024/brain.nii.gz",
+    "q_id": "000001",
+    "entity": "brain"
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "q_id": "000001",
+    "q_type": "2c_maskfree",
+    "content": "Observe the given PET and CT images; select the most accurate description regarding FDG uptake or metabolic presentation of the brain.",
+    "options": {
+      "A": "Locally decreased FDG metabolism in the left temporal lobe",
+      "B": "Absent FDG metabolism in the left temporal lobe",
+      "C": "Locally increased FDG metabolism in the left temporal lobe, SUVmax=8.4",
+      "D": "Locally increased FDG metabolism in the left temporal lobe, SUVmax=13.8"
+    },
+    "answer": "C",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "PET_path": "imgs_data/PET/PTXH220103024_0000.nii.gz",
+    "entity": "brain",
+    "abnormality": true
+  },
+  {
+    "q_id": "000002",
+    "q_type": "2c_maskfree",
+    "content": "Please observe the provided PET and CT images and select all entries that accurately describe the FDG uptake of the esophagus.",
+    "options": {
+      "A": "No increased FDG uptake in the esophagus",
+      "B": "Esophageal wall thickening with increased FDG uptake",
+      "C": "Absent FDG metabolism in the esophagus",
+      "D": "Increased FDG uptake in the esophagus"
+    },
+    "answer": "A",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "PET_path": "imgs_data/PET/PTXH220103024_0000.nii.gz",
+    "entity": "esophagus",
+    "abnormality": true
+  }
+]

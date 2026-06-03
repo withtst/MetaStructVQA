@@ -1,0 +1,32 @@
+[
+  {
+    "q_id": "000001",
+    "q_type": "2a_maskfree",
+    "content": "利用全身CT影像，请确定所有正确描述脑的陈述",
+    "options": {
+      "A": "脑结构紊乱",
+      "B": "脑形态不规则",
+      "C": "脑形态正常",
+      "D": "脑结构正常"
+    },
+    "answer": "CD",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "entity": "brain",
+    "abnormality": false
+  },
+  {
+    "q_id": "000002",
+    "q_type": "2a_maskfree",
+    "content": "基于全身CT扫描，请确定所有正确描述肝的选项",
+    "options": {
+      "A": "肝右叶可见低密度灶",
+      "B": "肝形态正常",
+      "C": "肝结构正常",
+      "D": "肝左叶体积增大"
+    },
+    "answer": "BC",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "entity": "liver",
+    "abnormality": false
+  }
+]

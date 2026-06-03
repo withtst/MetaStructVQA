@@ -1,0 +1,32 @@
+[
+  {
+    "q_id": "000001",
+    "q_type": "2a_maskfree",
+    "content": "Based on the given whole-body CT images, please select all correct descriptions of brain from the options.",
+    "options": {
+      "A": "Disrupted brain structure",
+      "B": "Irregular brain morphology",
+      "C": "Normal brain morphology",
+      "D": "Normal brain structure"
+    },
+    "answer": "CD",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "entity": "brain",
+    "abnormality": false
+  },
+  {
+    "q_id": "000002",
+    "q_type": "2a_maskfree",
+    "content": "Based on the provided whole-body CT scan, please select all options that correctly describe liver.",
+    "options": {
+      "A": "Hypodense lesion visible in the right hepatic lobe",
+      "B": "Normal liver morphology",
+      "C": "Normal liver structure",
+      "D": "Enlarged left hepatic lobe"
+    },
+    "answer": "BC",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "entity": "liver",
+    "abnormality": false
+  }
+]

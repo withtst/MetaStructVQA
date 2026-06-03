@@ -1,0 +1,34 @@
+[
+  {
+    "q_type": "2a",
+    "content": "Based on the given whole-body CT images and the brain mask, please select all correct descriptions of brain from the options.",
+    "options": {
+      "A": "Disrupted brain structure",
+      "B": "Irregular brain morphology",
+      "C": "Normal brain morphology",
+      "D": "Normal brain structure"
+    },
+    "answer": "CD",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "segmentation_path": "imgs_data/CT_seg/PTXH220103024/brain.nii.gz",
+    "q_id": "000000",
+    "abnormality": false,
+    "entity": "brain"
+  },
+  {
+    "q_type": "2a",
+    "content": "Based on the provided whole-body CT scan and the mask of brain, please select all options that correctly describe brain.",
+    "options": {
+      "A": "No midline shift",
+      "B": "A few nodular hyperdense foci in the deep brain",
+      "C": "Midline shift present",
+      "D": "A few patchy hypodense foci in the deep brain"
+    },
+    "answer": "AD",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "segmentation_path": "imgs_data/CT_seg/PTXH220103024/brain.nii.gz",
+    "q_id": "000001",
+    "abnormality": false,
+    "entity": "brain"
+  }
+]

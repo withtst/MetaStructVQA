@@ -1,0 +1,32 @@
+[
+  {
+    "q_id": "000000",
+    "q_type": "1a",
+    "content": "Based on the provided CT image and mask, which organ does the masked region correspond to? Please select from the options below.",
+    "options": {
+      "A": "Trachea",
+      "B": "Left Upper Lobe",
+      "C": "Right Lower Lobe",
+      "D": "Left Lower Lobe"
+    },
+    "answer": "B",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "segmentation_path": "imgs_data/CT_seg/PTXH220103024/lung_upper_lobe_left.nii.gz",
+    "entity": "lung_upper_lobe_left"
+  },
+  {
+    "q_id": "000001",
+    "q_type": "1a",
+    "content": "Given the CT scan and mask, please identify the organ corresponding to the masked area.",
+    "options": {
+      "A": "Trachea",
+      "B": "Left Lower Lobe",
+      "C": "Right Lower Lobe",
+      "D": "Left Upper Lobe"
+    },
+    "answer": "B",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "segmentation_path": "imgs_data/CT_seg/PTXH220103024/lung_lower_lobe_left.nii.gz",
+    "entity": "lung_lower_lobe_left"
+  }
+]

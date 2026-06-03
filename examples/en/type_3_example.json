@@ -1,0 +1,30 @@
+[
+  {
+    "q_type": "3",
+    "content": "Based on the PET/CT image, what are the morphological characteristics of the nodule in the posterior basal segment of the left lower lobe?",
+    "options": {
+      "A": "Lobulated solid nodule with spiculated margins",
+      "B": "Irregular nodule with ill-defined margins",
+      "C": "Round solid nodule with well-defined margins",
+      "D": "Round ground-glass nodule with well-defined margins"
+    },
+    "answer": "C",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "PET_path": "imgs_data/PET/PTXH220103024_0000.nii.gz",
+    "q_id": "000000"
+  },
+  {
+    "q_type": "3",
+    "content": "Based on the PET image, what is the maximum metabolic activity (SUVmax) of the largest mass in the right hepatic lobe?",
+    "options": {
+      "A": "SUVmax = 8.4",
+      "B": "SUVmax = 15.4",
+      "C": "SUVmax = 11.2",
+      "D": "SUVmax = 5.7"
+    },
+    "answer": "B",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "PET_path": "imgs_data/PET/PTXH220103024_0000.nii.gz",
+    "q_id": "000001"
+  }
+]
