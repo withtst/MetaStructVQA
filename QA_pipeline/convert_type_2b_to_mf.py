@@ -1,0 +1,83 @@
+"""Type 2b -> 2b-enhanced (mask_free) conversion script
+Removes segmentation mask paths and replaces question templates with mask-free versions.
+"""
+import json
+import os
+import re
+import yaml
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_PATH = os.path.join(BASE_DIR, '../MetaStructVQA_Dataset/QA_pairs/type_2.json')
+OUTPUT_PATH = os.path.join(BASE_DIR, '../MetaStructVQA_Dataset/QA_pairs/type_2b-enhanced.json')
+TEMPLATE_PATH = os.path.join(BASE_DIR, 'question_patterns/2b-identify_true_or_false.json')
+ENHANCED_TEMPLATE_PATH = os.path.join(BASE_DIR, 'question_patterns/2b-identify_true_or_false-enhanced.json')
+
+
+def _get_lang_key():
+    with open(os.path.join(BASE_DIR, 'configs.yaml'), 'r', encoding='utf-8') as f:
+        return yaml.safe_load(f).get('report_language', 'chinese').lower()
+
+
+def _load_templates(path: str, lang: str):
+    with open(path, 'r', encoding='utf-8') as f:
+        data = json.load(f)
+    return [item[lang] for item in data]
+
+
+def _build_regex(template: str) -> re.Pattern:
+    pattern = re.escape(template)
+    entity_placeholder = re.escape("{entity}")
+    desc_placeholder = re.escape("{description}")
+    # First occurrence uses named capture group, subsequent uses backreference
+    pattern = pattern.replace(entity_placeholder, "<<ENTITY>>", 1)
+    pattern = pattern.replace(entity_placeholder, r"(?P=entity)")  # Replace remaining with backreference
+    pattern = pattern.replace("<<ENTITY>>", r"(?P<entity>.+?)")  # First replacement as named group
+    pattern = pattern.replace(desc_placeholder, "<<DESC>>", 1)
+    pattern = pattern.replace(desc_placeholder, r"(?P=description)")
+    pattern = pattern.replace("<<DESC>>", r"(?P<description>.+?)")
+    return re.compile(rf"^{pattern}$", re.DOTALL)
+
+
+def _map_content(content: str, enhanced_templates, regexes):
+    for idx, regex in enumerate(regexes):
+        match = regex.match(content)
+        if match:
+            groups = match.groupdict()
+            return enhanced_templates[idx].format(**groups)
+    return None
+
+def main():
+    with open(INPUT_PATH, 'r', encoding='utf-8') as f:
+        qa_pairs = json.load(f)
+
+    lang = _get_lang_key()
+    templates = _load_templates(TEMPLATE_PATH, lang)
+    enhanced_templates = _load_templates(ENHANCED_TEMPLATE_PATH, lang)
+    if len(templates) != len(enhanced_templates):
+        raise RuntimeError("Template count mismatch: original and enhanced templates do not match")
+    regexes = [_build_regex(t) for t in templates]
+    enhanced = []
+    unmatched = 0
+    for qa in qa_pairs:
+        if qa.get('q_type') != '2b':
+            continue
+        new_qa = qa.copy()
+        # Rebuild content using enhanced template
+        mapped = _map_content(new_qa.get('content', ''), enhanced_templates, regexes)
+        if mapped:
+            new_qa['content'] = mapped
+        else:
+            unmatched += 1
+        # Remove segmentation mask path
+        new_qa.pop('segmentation_path', None)
+        # Update q_type
+        new_qa['q_type'] = '2b-enhanced'
+        enhanced.append(new_qa)
+    with open(OUTPUT_PATH, 'w', encoding='utf-8') as f:
+        json.dump(enhanced, f, ensure_ascii=False, indent=2)
+    print(f"Generated {len(enhanced)} 2b-enhanced questions, output: {OUTPUT_PATH}")
+    if unmatched:
+        print(f"Warning: {unmatched} question(s) did not match any template, original content preserved")
+
+if __name__ == '__main__':
+    main()

@@ -1,0 +1,4 @@
+# Python >= 3.8 (recommended 3.10+)
+openai>=1.0.0
+pandas>=1.3.0
+PyYAML>=5.4

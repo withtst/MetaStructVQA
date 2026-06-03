@@ -1,0 +1,30 @@
+[
+  {
+    "q_type": "3",
+    "content": "根据PET/CT影像，左肺下叶后基底段结节的形态特征是什么？",
+    "options": {
+      "A": "分叶状实性结节，边界毛刺",
+      "B": "不规则形结节，边界模糊",
+      "C": "类圆形实性结节，边界清晰。",
+      "D": "类圆形磨玻璃结节，边界清"
+    },
+    "answer": "C",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "PET_path": "imgs_data/PET/PTXH220103024_0000.nii.gz",
+    "q_id": "000000"
+  },
+  {
+    "q_type": "3",
+    "content": "根据PET影像，肝脏右叶最大肿块的代谢活性最高值是多少？",
+    "options": {
+      "A": "SUVmax 为 8.4",
+      "B": "SUVmax 为 15.4。",
+      "C": "SUVmax 为 11.2",
+      "D": "SUVmax 为 5.7"
+    },
+    "answer": "B",
+    "CT_path": "imgs_data/CT/PTXH220103024_0000.nii.gz",
+    "PET_path": "imgs_data/PET/PTXH220103024_0000.nii.gz",
+    "q_id": "000001"
+  }
+]

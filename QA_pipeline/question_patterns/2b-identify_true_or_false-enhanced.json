@@ -1,0 +1,194 @@
+[
+  {
+    "chinese": "根据给定CT影像，请问关于{entity}的如下描述是否正确？\n{description}\n（若正确请选A，若错误请选B）",
+    "english": "Based on the provided CT image, is the following description about {entity} correct?\n{description}\n(Select A if correct, B if incorrect)"
+  },
+  {
+    "chinese": "观察提供的影像及{entity}区域，描述“{description}”是否属实？若属实请选A，若不属实请选B。",
+    "english": "Observing the provided image and the {entity} region, is the description '{description}' true? Select A for true, B for false."
+  },
+  {
+    "chinese": "基于CT图像，判断该部位是否符合描述：{description}。正确请选A，错误请选B。",
+    "english": "Based on the CT image, determine if the part fits the description: {description}. Select A for correct, B for incorrect."
+  },
+  {
+    "chinese": "请核实：针对{entity}区域，描述“{description}”是否与影像一致？若一致请选A，若不一致请选B。",
+    "english": "Please verify: For the {entity} region, is the description '{description}' consistent with the image? Select A for consistent, B for inconsistent."
+  },
+  {
+    "chinese": "给定CT扫描，判定如下陈述的正误：{description}。（正确选A，错误选B）",
+    "english": "Given the CT scan, determine the truth of the following statement: {description}. (A for correct, B for incorrect)"
+  },
+  {
+    "chinese": "在提供的CT视图中，关于{entity}的描述“{description}”是否准确？若准确请选A，若有误请选B。",
+    "english": "In the provided CT view, is the description '{description}' regarding the {entity} accurate? Select A for accurate, B for incorrect."
+  },
+  {
+    "chinese": "请问影像中{entity}所指示的状态，是否可以用“{description}”来概括？是请选A，否请选B。",
+    "english": "Can the status of the {entity} in the image be summarized as '{description}'? Select A for yes, B for no."
+  },
+  {
+    "chinese": "根据影像中{entity}位置，下述说法是否成立？\n{description}\n（若成立选A，若不成立选B）",
+    "english": "According to the {entity} location in the image, does the following statement hold true?\n{description}\n(Select A if it holds, B if it does not)"
+  },
+  {
+    "chinese": "结合CT原图，请确认描述“{description}”是否真实。若真实请选A，若虚假请选B。",
+    "english": "Combining the original CT image, please confirm if the description '{description}' is true. Select A for true, B for false."
+  },
+  {
+    "chinese": "对比影像特征，判断关于{entity}的描述“{description}”是否正确？正确选A，错误请选B。",
+    "english": "Comparing the image features, is the description '{description}' for the {entity} correct? Select A for correct, B for incorrect."
+  },
+  {
+    "chinese": "针对图像中{entity}标记的部分，判断其是否符合：{description}。（符合请选A，不符合请选B）",
+    "english": "For the part marked as {entity} in the image, determine if it conforms to: {description}. (Select A for conform, B for does not conform)"
+  },
+  {
+    "chinese": "观察{entity}区域，请问描述“{description}”是否符合该影像表现？符合选A，不符合选B。",
+    "english": "Observing the {entity} region, does the description '{description}' match the image findings? Select A for match, B for mismatch."
+  },
+  {
+    "chinese": "请问针对{entity}的临床描述“{description}”在给定的CT中是否正确？若正确选A，若错误选B。",
+    "english": "Is the clinical description '{description}' for the {entity} correct in the given CT? Select A if correct, B if incorrect."
+  },
+  {
+    "chinese": "请核查影像：关于{entity}部位，描述“{description}”是否无误？无误请选A，有误请选B。",
+    "english": "Please check the image: Is the description '{description}' regarding the {entity} site error-free? Select A for error-free, B for contains errors."
+  },
+  {
+    "chinese": "判定题：影像中{entity}的状态符合描述“{description}”吗？符合选A，不符合选B。",
+    "english": "Judgment task: Does the status of the {entity} in the image comply with the description '{description}'? Select A for comply, B for does not comply."
+  },
+  {
+    "chinese": "作为放射科专家，你认为{entity}区域符合“{description}”这一特征吗？若符合请选A，若不符合请选B。",
+    "english": "As a radiology expert, do you think the {entity} region fits the characteristic '{description}'? Select A if it fits, B if it does not."
+  },
+  {
+    "chinese": "分析CT影像，{entity}处的表现是否验证了描述：{description}？验证请选A，未验证请选B。",
+    "english": "Analyzing the CT image, do the findings at the {entity} verify the description: {description}? Select A for verified, B for not verified."
+  },
+  {
+    "chinese": "在该份报告中，关于{entity}的表述“{description}”是否客观？若客观请选A，不客观请选B。",
+    "english": "In this report, is the statement '{description}' regarding the {entity} objective? Select A for objective, B for not objective."
+  },
+  {
+    "chinese": "经影像学观察，{entity}区域是否如描述所言：{description}？是请选A，否请选B。",
+    "english": "Based on imaging observation, is the {entity} region as described: {description}? Select A for yes, B for no."
+  },
+  {
+    "chinese": "请判断：{entity}的形态学特征是否符合“{description}”？正确请选A，错误请选B。",
+    "english": "Please judge: Do the morphological features of the {entity} conform to '{description}'? Select A for correct, B for incorrect."
+  },
+  {
+    "chinese": "视觉评估{entity}区域，其表现是否支持描述：{description}？支持选A，不支持选B。",
+    "english": "Visually assessing the {entity} area, do the findings support the description: {description}? Select A for support, B for does not support."
+  },
+  {
+    "chinese": "仔细辨认{entity}区域，描述“{description}”是否是对该部位的正确解读？是请选A，否请选B。",
+    "english": "Carefully identifying the {entity} region, is the description '{description}' a correct interpretation of the part? Select A for yes, B for no."
+  },
+  {
+    "chinese": "针对{entity}的影像征象，判断“{description}”这一说法是否客观真实？若真实选A，若不真实选B。",
+    "english": "Regarding the imaging signs of the {entity}, judge if the statement '{description}' is objective and true. Select A for true, B for not true."
+  },
+  {
+    "chinese": "在该层面的扫描中，{entity}处是否确实表现为：{description}？是请选A，否请选B。",
+    "english": "In this scan slice, does the {entity} indeed present as: {description}? Select A for yes, B for no."
+  },
+  {
+    "chinese": "经放射学判读，关于{entity}的描述“{description}”在该图中是否成立？成立请选A，不成立请选B。",
+    "english": "Based on radiological interpretation, does the description '{description}' for the {entity} hold true in this image? Select A for holds, B for does not hold."
+  },
+  {
+    "chinese": "观察{entity}，描述“{description}”是否正确？正确选A，错误选B。",
+    "english": "Observing the {entity}, is the description '{description}' correct? Select A for correct, B for incorrect."
+  },
+  {
+    "chinese": "关于{entity}，下述描述是否属实？\n{description}\n（属实选A，不属实选B）",
+    "english": "Regarding the {entity}, is the following description true?\n{description}\n(Select A for true, B for not true)"
+  },
+  {
+    "chinese": "针对{entity}位置，描述“{description}”是否准确？准确请选A，不准确请选B。",
+    "english": "Regarding the {entity} location, is the description '{description}' accurate? Select A for accurate, B for inaccurate."
+  },
+  {
+    "chinese": "判断：图中{entity}区域是否符合描述“{description}”？符合选A，不符合选B。",
+    "english": "Judgment: Does the {entity} region in the image match the description '{description}'? Select A for match, B for mismatch."
+  },
+  {
+    "chinese": "请问影像中{entity}是否可以用“{description}”来定义？可以请选A，不可以请选B。",
+    "english": "Can the {entity} in the image be defined as '{description}'? Select A for yes, B for no."
+  },
+  {
+    "chinese": "聚焦{entity}，判定其空间特征是否如描述所述：{description}。是请选A，否请选B。",
+    "english": "Focusing on the {entity}, determine if its spatial characteristics are as described: {description}. Select A for yes, B for no."
+  },
+  {
+    "chinese": "针对{entity}的表现，判断描述“{description}”是否一致？一致选A，不一致选B。",
+    "english": "Regarding the presentation of the {entity}, is the description '{description}' consistent? Select A for consistent, B for inconsistent."
+  },
+  {
+    "chinese": "检查{entity}对应的组织，其表现是否可以用“{description}”描述？可以选A，不可以选B。",
+    "english": "Examining the tissue corresponding to the {entity}, can its findings be described as '{description}'? Select A for yes, B for no."
+  },
+  {
+    "chinese": "关于{entity}区域，陈述“{description}”是否符合影像学事实？符合请选A，不符合请选B。",
+    "english": "Regarding the {entity} area, does the statement '{description}' align with the imaging facts? Select A for align, B for does not align."
+  },
+  {
+    "chinese": "确认：{entity}的形态学表现是否完全匹配描述：{description}？匹配请选A，不匹配请选B。",
+    "english": "Confirmation: Does the morphological appearance of the {entity} perfectly match the description: {description}? Select A for match, B for mismatch."
+  },
+  {
+    "chinese": "您好，请问在给定CT中，{entity}的状态是“{description}”吗？若是请选A，若否请选B。",
+    "english": "Hello, in the given CT, is the status of the {entity} '{description}'? Select A for yes, B for no."
+  },
+  {
+    "chinese": "请帮我判断一下，关于{entity}的这条描述是否正确：{description}。（正确请选A，错误请选B）",
+    "english": "Please help me judge if this description regarding the {entity} is correct: {description}. (Select A for correct, B for incorrect)"
+  },
+  {
+    "chinese": "我认为图中{entity}区域符合“{description}”，我的判断正确吗？正确请选A，错误请选B。",
+    "english": "I believe the {entity} area in the image fits '{description}'. Is my judgment correct? Select A for correct, B for incorrect."
+  },
+  {
+    "chinese": "请问在该影像中，描述“{description}”是对{entity}的真实反映吗？是请选A，否请选B。",
+    "english": "In this image, is the description '{description}' a true reflection of the {entity}? Select A for yes, B for no."
+  },
+  {
+    "chinese": "针对这张CT，如果我说{entity}区域“{description}”，这个说法对吗？对请选A，错请选B。",
+    "english": "For this CT, if I say the {entity} region is '{description}', is that correct? Select A for right, B for wrong."
+  },
+  {
+    "chinese": "请确认：图像中{entity}是否符合描述“{description}”？符合选A，不符合选B。",
+    "english": "Please confirm: Does the {entity} in the image conform to the description '{description}'? Select A for conform, B for mismatch."
+  },
+  {
+    "chinese": "我们可以用“{description}”描述{entity}的表现吗？可以请选A，不可以请选B。",
+    "english": "Can we describe the findings of the {entity} as '{description}'? Select A for yes, B for no."
+  },
+  {
+    "chinese": "请根据CT影像核实：{entity}是否呈现出“{description}”的状态？是请选A，否请选B。",
+    "english": "Please verify based on the CT image: Does the {entity} present a state of '{description}'? Select A for yes, B for no."
+  },
+  {
+    "chinese": "观察图像，关于{entity}的表述“{description}”是否有误？无误请选A，有误请选B。",
+    "english": "Observing the image, is the statement '{description}' about the {entity} erroneous? Select A for error-free, B for erroneous."
+  },
+  {
+    "chinese": "判断如下描述是否为该{entity}区域的真实情况：{description}。是请选A，否请选B。",
+    "english": "Determine if the following description is the actual situation for the {entity} region: {description}. Select A for yes, B for no."
+  },
+  {
+    "chinese": "请回答：{entity}所标记的解剖部位是否满足描述：{description}？满足选A，不满足选B。",
+    "english": "Please answer: Does the anatomical site of the {entity} satisfy the description: {description}? Select A for satisfies, B for does not satisfy."
+  },
+  {
+    "chinese": "仔细审视{entity}，该区域的表现是否排除了描述“{description}”的可能性？未排除选A，已排除选B。",
+    "english": "Carefully scrutinizing the {entity}, does the appearance of this area rule out the possibility of '{description}'? Select A for not ruled out, B for ruled out."
+  },
+  {
+    "chinese": "综合{entity}的影像信息，判断下述陈述是否偏离了事实：{description}。未偏离选A，已偏离选B。",
+    "english": "Considering the imaging information of the {entity} collectively, judge if the following statement deviates from the facts: {description}. Select A for no deviation, B for deviated."
+  }
+]

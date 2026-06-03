@@ -1,0 +1,202 @@
+[
+  {
+    "chinese": "根据给定CT图像及掩膜，请问掩膜位置的器官是以下选项中的哪一个？",
+    "english": "Based on the provided CT image and mask, which organ does the masked region correspond to? Please select from the options below."
+  },
+  {
+    "chinese": "在提供的CT影像及掩膜中，请识别掩膜区域对应的器官名称。",
+    "english": "Given the CT scan and mask, please identify the organ corresponding to the masked area."
+  },
+  {
+    "chinese": "观察CT图像及其掩膜，判断掩膜所标识的器官是下列哪一个？",
+    "english": "Observe the CT image and its mask to determine which organ the mask indicates. Select from the following options."
+  },
+  {
+    "chinese": "基于CT影像和掩膜，请选择掩膜部位代表的器官。",
+    "english": "Based on the CT image and mask, please select the organ represented by the masked region."
+  },
+  {
+    "chinese": "给定CT扫描图像和掩膜，请问掩膜覆盖的器官是以下哪一项？",
+    "english": "Given the CT scan image and mask, which organ is labeled by the mask? Please choose from the options below."
+  },
+  {
+    "chinese": "根据CT图像及掩膜信息，请指出掩膜位置的器官名称。",
+    "english": "According to the CT image and mask information, please indicate the name of the organ in the masked region."
+  },
+  {
+    "chinese": "在CT影像中，给定掩膜区域，请问该区域对应哪个器官？请从四个选项中选择。",
+    "english": "In the CT image, given the masked region, which organ does this area correspond to? Please select from the provided options."
+  },
+  {
+    "chinese": "分析CT图像和掩膜，确定掩膜所指的器官是什么。",
+    "english": "Analyze the CT image and mask to determine the organ indicated by the mask."
+  },
+  {
+    "chinese": "基于提供的CT影像和掩膜，请回答掩膜位置的器官是以下哪个？",
+    "english": "Based on the provided CT image and mask, please identify which organ is located within the masked region. Choose from the options below."
+  },
+  {
+    "chinese": "给定CT图像和掩膜，请问掩膜处的器官是什么？请选择正确答案。",
+    "english": "Given the CT image and mask, what is the organ in the masked region? Please select the correct answer."
+  },
+  {
+    "chinese": "根据CT影像资料及掩膜，请判断掩膜区域的器官归属。",
+    "english": "Based on the CT imaging data and mask, please determine the identity of the organ in the masked region."
+  },
+  {
+    "chinese": "在CT图像上，掩膜标记了哪个器官？请从选项中选择。",
+    "english": "On the CT image, which organ is marked by the mask? Please select from the options."
+  },
+  {
+    "chinese": "观察给定CT影像和掩膜，请问掩膜对应的器官是以下哪一个？",
+    "english": "Observing the given CT image and mask, which organ corresponds to the masked region? Please choose from the following."
+  },
+  {
+    "chinese": "基于CT扫描和掩膜，请识别掩膜位置的解剖结构名称。",
+    "english": "Based on the CT scan and mask, please identify the anatomical structure within the masked region."
+  },
+  {
+    "chinese": "给定CT图像和掩膜，请问掩膜所指示的器官是哪个？",
+    "english": "Given the CT image and mask, which organ is indicated by the mask?"
+  },
+  {
+    "chinese": "根据CT图像及掩膜显示，请选择掩膜部位的器官名称。",
+    "english": "According to the CT image and mask display, please select the name of the organ in the masked region."
+  },
+  {
+    "chinese": "在提供的CT影像中，掩膜覆盖的区域代表哪个器官？请从以下选项中选择。",
+    "english": "In the provided CT image, which organ does the region covered by the mask represent? Please select from the options below."
+  },
+  {
+    "chinese": "分析给定CT和掩膜，请问掩膜位置的器官是下列选项中的哪一个？",
+    "english": "Analyzing the given CT and mask, which organ is located in the masked region? Please select from the following options."
+  },
+  {
+    "chinese": "基于CT影像数据，掩膜标识了哪个器官？请选择正确选项。",
+    "english": "Based on the CT imaging data, which organ is identified by the mask? Please select the correct option."
+  },
+  {
+    "chinese": "给定CT图像及其掩膜，请确定掩膜区域的器官。",
+    "english": "Given the CT image and its mask, please determine the organ within the masked region."
+  },
+  {
+    "chinese": "根据CT影像和掩膜，请问掩膜处的器官是以下哪个选项？",
+    "english": "According to the CT image and mask, which of the following options is the organ in the masked region?"
+  },
+  {
+    "chinese": "在医学影像分析中，给定CT图像和掩膜位置，请判断对应的器官名称。",
+    "english": "In medical image analysis, given the CT image and mask region, please determine the corresponding organ name."
+  },
+  {
+    "chinese": "观察CT扫描图像和掩膜，请问掩膜所标出的器官是什么？",
+    "english": "Observing the CT scan image and mask, what is the organ marked by the mask?"
+  },
+  {
+    "chinese": "基于提供的CT图像及掩膜，请从选项中选出掩膜位置的器官。",
+    "english": "Based on the provided CT image and mask, please select the organ in the masked region from the given options."
+  },
+  {
+    "chinese": "给定CT影像和掩膜，掩膜区域对应哪个器官？请选择。",
+    "english": "Given the CT image and mask, which organ corresponds to the masked region? Please select."
+  },
+  {
+    "chinese": "根据CT图像和掩膜信息，请识别掩膜所指的器官。",
+    "english": "Based on the CT image and mask information, please identify the organ indicated by the mask."
+  },
+  {
+    "chinese": "在CT图像中，掩膜覆盖的部位是哪个器官？请从以下选项中选择。",
+    "english": "In the CT image, which organ is in the region covered by the mask? Please select from the options below."
+  },
+  {
+    "chinese": "分析CT图像及掩膜，请问掩膜位置的器官是哪一个？",
+    "english": "Analyze the CT image and mask; which organ is located within the masked region?"
+  },
+  {
+    "chinese": "基于CT影像资料，请判断掩膜标识的解剖结构是以下哪个器官？",
+    "english": "Based on the CT imaging data, please determine which organ corresponds to the anatomical structure identified by the mask. Choose from the following."
+  },
+  {
+    "chinese": "给定CT影像和掩膜，请选择掩膜区域对应的器官名称。",
+    "english": "Given the CT image and mask, please select the organ name corresponding to the masked region."
+  },
+  {
+    "chinese": "根据提供的CT图像及掩膜，请问掩膜处的器官名称是什么？",
+    "english": "According to the provided CT image and mask, what is the name of the organ in the masked region?"
+  },
+  {
+    "chinese": "在CT影像中，掩膜标记了哪个器官？请从选项中选择正确答案。",
+    "english": "In the CT image, which organ is marked by the mask? Please select the correct answer from the options."
+  },
+  {
+    "chinese": "观察给定CT图像和掩膜，请指出掩膜位置的器官。",
+    "english": "Observing the given CT image and mask, please indicate the organ within the masked region."
+  },
+  {
+    "chinese": "基于CT扫描，掩膜区域代表什么器官？请选择。",
+    "english": "Based on the CT scan, what organ does the masked region represent? Please select."
+  },
+  {
+    "chinese": "给定CT图像和掩膜，请问掩膜所指示的器官是以下哪个选项？",
+    "english": "Given the CT image and mask, which of the following options is the organ indicated by the mask?"
+  },
+  {
+    "chinese": "根据CT影像及掩膜，请识别掩膜部位的器官。",
+    "english": "Based on the CT image and mask, please identify the organ in the masked region."
+  },
+  {
+    "chinese": "在医学图像中，掩膜覆盖的解剖结构是哪个器官？请选择。",
+    "english": "In the medical image, which organ is the anatomical structure labeled by the mask? Please select."
+  },
+  {
+    "chinese": "分析提供的CT和掩膜，请问掩膜位置的器官是什么？",
+    "english": "Analyzing the provided CT and mask, what is the organ in the masked region?"
+  },
+  {
+    "chinese": "基于CT影像数据，请从选项中选出掩膜对应的器官名称。",
+    "english": "Based on the CT imaging data, please select the organ name corresponding to the masked region from the options."
+  },
+  {
+    "chinese": "给定CT扫描和掩膜，请判断掩膜区域的器官归属。",
+    "english": "Given the CT scan and mask, please determine the identity of the organ within the masked region."
+  },
+  {
+    "chinese": "根据CT图像，掩膜标识了哪个器官？请选择。",
+    "english": "According to the CT image, which organ is identified by the mask? Please select."
+  },
+  {
+    "chinese": "在提供的CT影像资料中，请问掩膜位置的器官是以下哪一个？",
+    "english": "In the provided CT imaging data, which of the following is the organ in the masked region?"
+  },
+  {
+    "chinese": "观察CT图像及掩膜，请确定掩膜所标器官的名称。",
+    "english": "Observe the CT image and mask to determine the name of the organ marked by the mask."
+  },
+  {
+    "chinese": "基于CT影像和掩膜，请选择掩膜处对应的器官。",
+    "english": "Based on the CT image and mask, please select the corresponding organ in the masked region."
+  },
+  {
+    "chinese": "给定CT影像和掩膜，请问掩膜覆盖的器官是什么？请从选项中选择。",
+    "english": "Given the CT image and mask, what is the organ labeled by the mask? Please select from the options."
+  },
+  {
+    "chinese": "根据CT图像分析，掩膜区域对应哪个解剖结构？请选择器官名称。",
+    "english": "Based on CT image analysis, which anatomical structure does the masked region correspond to? Please select the organ name."
+  },
+  {
+    "chinese": "在CT扫描中，掩膜指示了哪个器官？请从以下选项中选择。",
+    "english": "In the CT scan, which organ is indicated by the mask? Please select from the following options."
+  },
+  {
+    "chinese": "分析给定CT影像和掩膜，请识别掩膜位置的器官名称。",
+    "english": "Analyze the given CT image and mask to identify the organ name in the masked region."
+  },
+  {
+    "chinese": "基于提供的CT图像及掩膜，请问掩膜处的器官是哪一个？",
+    "english": "Based on the provided CT image and mask, which organ is located in the masked region?"
+  },
+  {
+    "chinese": "给定CT影像数据，请判断掩膜所代表的器官。",
+    "english": "Given the CT imaging data, please determine the organ represented by the mask."
+  }
+]
